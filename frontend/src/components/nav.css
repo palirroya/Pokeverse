@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: 'PokemonFont';
+  src: url('/fonts/PokemonFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.forceImg {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+.big-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #61A4D4; 
+    border-color: #B6DAF3;
+    border-width: 2pt;
+    position: absolute;
+    top: 65%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+  
+  .small-circle{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin:1px;
+    border-color: #FFFF;
+    border-width: 0.5pt;
+  }
+
+  .red{
+    margin-left: 75px;
+    width: 17px;
+    height: 17px;
+
+  }
+
+
+  .flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .space-x-2 {
+    margin-top: -5px;
+    gap: 0.5rem; 
+  }

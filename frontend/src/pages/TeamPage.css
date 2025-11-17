@@ -1,0 +1,25 @@
+.hero-class {
+  background-color: #ffffff;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.pokemon-card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pokemon-image {
+    image-rendering: pixelated;
+    transition: transform 0.3s ease;
+  }
+  
+  .pokemon-image:hover {
+    transform: scale(1.1);
+  }

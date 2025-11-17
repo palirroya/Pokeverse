@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'PokemonFont';
+    src: url('/fonts/PokemonFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.hero-class{
+  margin-top:40px;
+}
+
+.hero-text{
+    font-size: 23px;
+    line-height: 1.8;
+    color: black;
+
+}
+
+.hero-text2{
+  font-size: 17px;
+  line-height: 1;
+}
+
+.hero-img{
+    justify-content: center;
+
+}
+  
+.hero-box{
+    display: block;
+    width: 100%; 
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto; 
+    transition: width 0.3s ease, height 0.3s ease, object-fit 0.3s ease;
+}
+
+
+.login-btn, .reset-btn{
+    background-color: #f30808; 
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 13px;
+    outline:none;
+    font-family: 'PokemonFont', sans-serif;
+    font-weight: bold;
+  }
+
+.login-btn:hover, .reset-btn:hover{
+    background-color: black; 
+    color: white; 
+  }
+
+
+
+.signup-btn {
+  background-color: #f30808; 
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 12px;
+  outline:none;
+  font-family: 'PokemonFont', sans-serif;
+  font-weight: bold;
+}
+
+.signup-btn:hover{
+  background-color: black; 
+  color: white; 
+}
+  
